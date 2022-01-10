@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+kafka-settings:
+  kafka-server: ${KAFKA_BROKER_URL:127.0.0.1:29092}
+  topic-name: ${TOPIC-NAME:topic2}
+  quantity-partitions: ${QUANTITY_PARTITIONS:1}
+  quantity-replicas: ${QUANTITY_REPLICAS:1}
